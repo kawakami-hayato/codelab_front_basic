@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>form_table問題</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">-->
+  <link rel="stylesheet" href="form_table.css">
+</head>
+
+<body>
+
+<!--練習問題1ここから-->
+
+  <table class="table1" border="1">
+    <tr>
+      <th class="th1">ジャンル</th>
+      <th class="th1">言語名</th>
+    </tr>
+    <tr>
+      <td rowspan=3">フロントエンド</td>
+      <td>HTML</td>
+
+    </tr>
+    <tr>
+      <td>CSS</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+    </tr>
+
+    <tr>
+      <td rowspan=3">バックエンド</td>
+      <td>PHP</td>
+
+    </tr>
+    <tr>
+      <td>Ruby</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+    </tr>
+
+  </table>
+
+
+  <!--練習問題2ここから-->
+
+
+  <table border="1">
+    <tr >
+      <th class="th2">お名前</th>
+      <td class="td2"><input class="input" type="text" name="" value=""></td>
+    </tr>
+
+    <tr >
+      <th class="th2">ご住所</th>
+      <td class="td2"><input class="input" type="text" name="" value=""></td>
+    </tr>
+
+    <tr >
+      <th class="th2">性別</th>
+      <td class="td2">
+        <input class="radio1" type="radio" name="#" id="man" checked><label for="man">男性</label>
+        <input class="radio1" type="radio" name="#" id="woman"><label for="woman">女性</label>
+      </td>
+    </tr>
+
+    <tr >
+      <th class="th2">お問い合わせ種別</th>
+      <td class="td2">
+        <select class="select1"　name="#">
+          <option value="1">資料請求</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr rowspan="2">
+      <th class="th2" >ご希望の連絡方法<br>（複数選択可）</th>
+      <td class="td2" >
+
+        <input class="radio1" type="checkbox" name="#" form="" value="1">メール
+        <input class="radio1" type="checkbox" name="#" value="2">電話
+        <input class="radio1" type="checkbox" name="#" value="2">訪問
+
+      </td>
+    </tr>
+
+
+
+    <tr>
+      <th class="th3">お問い合わせ内容</th>
+      <td><textarea class="input2"></textarea></td>
+    </tr>
+
+
+
+  </table>
+
+  <p>送信</p>
+
+
+
+
+</body>
+
+</html>
