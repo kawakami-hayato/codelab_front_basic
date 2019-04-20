@@ -41,11 +41,14 @@ body {
 
 /*wrapper！！！！！！！！*/
 
-.sidebar {
-  overflow: hidden;
+.side {
+
+
+
 }
 
 .sidebar-wrapper {
+  overflow: hidden;
   width: 30%;
   height: 100%;
   float: left;
