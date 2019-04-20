@@ -1,0 +1,359 @@
+/*　　基本CSS　　*/
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0px;
+  padding: 0px;
+
+  box-sizing: border-box;
+
+}
+
+li {
+list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: grey;
+}
+
+
+body {
+  width : 1440px;
+
+
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", osaka, arial, helvetica, sans-serif;
+
+
+
+
+
+
+}
+
+
+
+
+/*wrapper！！！！！！！！*/
+
+.sidebar {
+  overflow: hidden;
+}
+
+.sidebar-wrapper {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-color: #286496;
+
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+
+}
+
+
+.contents-wrapper {
+  float: right;
+  width: 70%;
+
+}
+
+
+
+.top-wrapper,
+.con1-wrapper,
+.con2-wrapper,
+.con3-wrapper,
+.con4-wrapper,
+.con5-wrapper,
+.form-wrapper,
+.copyright-wrapper {
+
+  width: 100%;
+  float: left;
+  background-color: white;
+
+}
+
+
+
+.container {
+  width: 90%;
+  margin-left: 70px;
+}
+
+
+
+/*sidebarここから！！！！！！！！*/
+
+
+.sidebar-wrapper img {
+  margin: 100px 0px 0px 170px;
+
+}
+
+
+.sidebar-wrapper p {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+
+
+
+.sidebar-list {
+  margin:110px 0px 0px 150px;
+
+}
+
+.sidebar-list li {
+  color: white;
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 20px;
+
+}
+
+.sidebar-list li:hover {
+  color: yellow;
+  text-align: left;
+  margin-bottom: 50px;
+  cursor: pointer;
+
+}
+
+/*ここから！！！！！！！！*/
+
+.top-wrapper img{
+  width: 100%;
+
+}
+
+
+
+
+
+
+/*con1ここから！！！！！！！！*/
+
+.con1-wrapper h1 {
+  color: #286496;
+  font-weight: normal;
+  font-size: 40px;
+  margin: 80px 0px 50px 0px;
+}
+
+.con1-wrapper p {
+  color: grey;
+  line-height: 2.0em;
+  font-size: 19px;
+  margin-bottom: 80px;
+}
+
+
+
+
+
+
+/*con2ここから！！！！！！！！*/
+
+.con2-wrapper img {
+  float: left;
+  width: 30%;
+}
+
+.con2-box {
+  float: left;
+  width: 63%;
+  margin-left: 35px;
+}
+
+.con2-box h2 {
+  color: #286496;
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.con2-box p {
+  color: grey;
+  line-height: 2.0em;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+#btn1 {
+  width: 220px;
+  padding :15px 60px;
+  background-color: #286496;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+
+
+
+/*con3ここから！！！！！！！！*/
+
+.con3-wrapper h2 {
+  color: #286496;
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.con3-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.con3-box img {
+  width: 19%;
+  height: 19%;
+  margin-right: 10px;
+}
+
+
+
+
+/*con4ここから！！！！！！！！*/
+
+.con4-wrapper h2 {
+  color: #286496;
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.con4-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.con4-box img {
+  width: 32.5%;
+  height: 32.5%;
+  margin-right: 10px;
+}
+
+
+
+
+/*con5ここから！！！！！！！！*/
+
+
+.con5-wrapper h2 {
+  color: #286496;
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.con5-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.con5-box img {
+  width: 24%;
+  height: 24%;
+  margin-right: 10px;
+}
+
+
+
+/*formここから！！！！！！！！*/
+
+.form-wrapper h2 {
+  color: #286496;
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 30px;
+
+}
+
+.form-box {
+  width: 47%;
+  float: left;
+
+}
+
+input {
+  width: 100%;
+  line-height: 2.0em;
+  margin-bottom: 15px;
+  font-size: 19px;
+  border: 2px solid #286496;
+  color: #286496;
+
+}
+
+textarea {
+  width: 100%;
+  height: 280px;
+  line-height: 2.0em;
+  margin-bottom: 15px;
+  font-size: 19px;
+  border: 2px solid #286496;
+  color: #286496;
+
+}
+
+input::placeholder ,textarea::placeholder {
+  color: #286496;
+  font-weight: lighter;
+}
+
+
+#btn2 {
+  width: 120px;
+  padding :15px 40px;
+  background-color: #286496;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+
+
+
+.form-box2 {
+  width: 47%;
+  float: left;
+  margin-left: 53px;
+
+}
+
+.form-box2 p {
+  line-height: 2.0em;
+  font-size: 19px;
+
+
+}
+
+#p2 {
+  margin-top: 20px;
+}
+
+
+
+/*copyrightここから！！！！！！！！*/
+
+
+.copyright-wrapper p {
+  margin-bottom: 30px;
+}
+
+
+.span1 {
+  color: rgb(0, 156, 255);
+}

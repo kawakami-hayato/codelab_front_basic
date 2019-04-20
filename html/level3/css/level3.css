@@ -1,0 +1,566 @@
+/*　　基本CSS　　*/
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0px;
+  padding: 0px;
+
+  box-sizing: border-box;
+
+}
+
+li {
+list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+
+
+body {
+  width : 1440px;
+
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", osaka, arial, helvetica, sans-serif;
+
+  background-color:  ;
+}
+
+
+
+
+/*wrapper全部まとめて！！！！！！！！*/
+
+.head-wrapper,footer {
+  width: 100%;
+  float: left;
+  background-color: #D95660;
+}
+
+
+.contents {
+  width: 100%;
+  background-image: url("../img/bg_noise.png");
+  float: left;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+
+
+}
+
+.side1-wrapper {
+  width: 18.5%;
+  float: left;
+  margin-right: 30px;
+}
+
+.main-wrapper {
+  width: 52.7%;
+  float: left;
+  margin: 0px 30px 80px 0px;
+}
+
+.side2-wrapper {
+  width: 22.5%;
+  float: left;
+}
+
+.search-box {
+  width: 100%;;
+  float: left;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+
+.side1-list3 {
+  width: 100%;
+  float: left;
+  margin: 30px 0px 40px 0px;
+}
+
+
+/*ここからheader！！！！！！！！*/
+
+.head {
+  margin: 35px 215px;
+}
+
+.head h1 {
+  color: white;
+  line-height: 0.5em;
+
+
+}
+
+.head p {
+  color: #F6B6B8;
+
+  font-size: 28px;
+
+}
+
+.head-wrapper::after {
+  content: "";
+  display: block;
+  background-image: url("../img/bg_giza.png");
+  width: 100%;
+  height: 8px;
+  background-position: 0px -18px;
+  position: relative;
+  top: 6px;
+
+
+
+}
+
+
+/*ここからside1！！！！！！！！*/
+
+.p1 {
+  color: #D95661;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+
+.side1-list li:first-child
+ {
+  width: 100%;
+  background-color: #D95661;
+  color: white;
+  line-height: 4em;
+  margin: 50px 0px 10px 0px;
+
+}
+
+.side1-list li:nth-child(2)
+ {
+  width: 100%;
+  background-color: white;
+  line-height: 4em;
+  margin: 0px 0px 2px 0px;
+
+}
+
+
+
+.side1-list li:first-child::before {
+  display: inline-block;
+  content: "";
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 9px 0px 0px 20px;
+  background-color: #D95661;
+  background-image: url("../img/ico_3column.png");
+  background-position: -0px -22px;
+
+
+  color: black;
+
+}
+
+.side1-list li:nth-child(2)::before {
+  display: inline-block;
+  content: "";
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 9px 0px 0px 20px;
+  background: url("../img/ico_3column.png");
+  background-position:  -78px -22px;
+
+
+  color: black;
+
+}
+
+
+.search-box li {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: 5px 0px 0px 20px;
+  background: url("../img/ico_3column.png");
+  background-position: -175px 3px;
+}
+
+.search-box input {
+  width: 65%;
+  line-height: 2.5em;
+  float: left;
+  border: none;
+
+  margin-top: 6px;
+
+}
+
+
+.side1-list2 li {
+
+  font-size: 14px;
+}
+
+
+.side1-list2 li:first-child,
+.side1-list2 li:nth-child(2),
+.side1-list2 li:nth-child(3),
+.side1-list2 li:nth-child(4),
+.side1-list2 li:nth-child(5)
+ {
+  width: 100%;
+  background-color: white;
+  line-height: 3em;
+  margin-bottom: 2px;
+
+}
+
+.side1-list2 li:first-child::before {
+  display: inline-block;
+  content: "";
+  float: left;
+  width: 27px;
+  height: 26px;
+  margin: 7px 5px 0px 25px;
+  background: url("../img/ico_3column.png");
+  background-position: -30px 0px;
+
+
+  color: black;
+
+}
+
+
+
+
+.side1-list2 li:nth-child(2)::before {
+  display: inline-block;
+  content: "";
+  float: left;
+  width: 27px;
+  height: 26px;
+  margin: 7px 5px 0px 25px;
+  background: url("../img/ico_3column.png");
+  background-position: -60px 0px;
+
+
+  color: black;
+
+}
+
+
+
+
+.side1-list2 li:nth-child(3)::before {
+  display: inline-block;
+  content: "";
+  float: left;
+  width: 27px;
+  height: 26px;
+  margin: 7px 5px 0px 25px;
+  background: url("../img/ico_3column.png");
+  background-position: -89px 0px;
+
+
+  color: black;
+
+}
+
+
+
+
+
+.side1-list2 li:nth-child(4)::before {
+  display: inline-block;
+  content: "";
+  float: left;
+  width: 27px;
+  height: 26px;
+  margin: 7px 5px 0px 25px;
+  background: url("../img/ico_3column.png");
+  background-position: -118px 0px;
+
+
+  color: black;
+
+}
+
+
+
+
+
+.side1-list2 li:nth-child(5)::before {
+  display: inline-block;
+  content: "";
+  float: left;
+  width: 27px;
+  height: 26px;
+  margin: 7px 5px 0px 25px;
+  background: url("../img/ico_3column.png");
+  background-position: -149px 0px;
+
+
+  color: black;
+
+}
+
+
+
+.side1-list3 li {
+  margin: 0px 0px 10px 25px;
+}
+
+
+.span1 {
+  color: red;
+  font-weight: bold;
+}
+
+
+
+.sns-box li:first-child {
+
+  width: 42px;
+  height: 42px;
+  background-color: white;
+  background-image: url("../img/ico_3column.png");
+  background-position: -686px 45px;
+  background-size: 1000%;
+  float: left;
+  transition: 0.3s;
+  margin-right: 3px;
+}
+
+.sns-box li:nth-child(2) {
+
+  width: 42px;
+  height: 42px;
+  background-color: white;
+  background-image: url("../img/ico_3column.png");
+  background-position: -726px 45px;
+  background-size: 1000%;
+  float: left;
+  transition: 0.3s;
+  margin-right: 3px;
+}
+
+.sns-box li:nth-child(3) {
+
+  width: 42px;
+  height: 42px;
+  background-color: white;
+  background-image: url("../img/ico_3column.png");
+  background-position: -765px 45px;
+  background-size: 1000%;
+  float: left;
+  transition: 0.3s;
+  margin-right: 3px;
+}
+
+.sns-box li:nth-child(4) {
+
+  width: 42px;
+  height: 42px;
+  background-color: white;
+  background-image: url("../img/ico_3column.png");
+  background-position: -810px 45px;
+  background-size: 1008%;
+  float: left;
+  transition: 0.3s;
+  margin-right: 3px;
+}
+
+
+
+
+
+.sns-box li:first-child:hover {
+
+  width: 42px;
+  height: 42px;
+  background-color: #55ACEE;
+  background-image: url("../img/ico_3column.png");
+  background-position: -686px 5px;
+  background-size: 1000%;
+  float: left;
+}
+
+.sns-box li:nth-child(2):hover {
+
+  width: 42px;
+  height: 42px;
+  background-color:#516CA3;
+  background-image: url("../img/ico_3column.png");
+  background-position: -726px 5px;
+  background-size: 1000%;
+  float: left;
+}
+
+.sns-box li:nth-child(3):hover {
+
+  width: 42px;
+  height: 42px;
+  background-color:#E5766A;
+
+  background-image: url("../img/ico_3column.png");
+  background-position: -765px 5px;
+  background-size: 1000%;
+  float: left;
+}
+
+.sns-box li:nth-child(4):hover {
+
+  width: 42px;
+  height: 42px;
+  background-color:#C73045;
+
+  background-image: url("../img/ico_3column.png");
+  background-position: -810px 5px;
+  background-size: 1008% ;
+  float: left;
+}
+
+/*mainここから！！！！！！！！*/
+
+
+.main-wrapper h2 {
+  color: #D95661;
+  margin: 60px 0px 20px 0px ;
+
+  font-size: 21.5px;;
+}
+
+.main-wrapper h3 {
+  border-left: 5px solid #D95661;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.main-wrapper p {
+  font-size: 12px;
+  margin: 20px 0px;
+  line-height: 1.8em;
+
+
+}
+
+.main-wrapper img {
+  width: 100%;
+}
+
+#p2 {
+  line-height: 1.5em;
+}
+
+
+
+
+
+/*side2ここから！！！！！！！！*/
+
+.side2-wrapper img {
+  width: 100%;
+}
+
+#img1 {
+  margin : 50px 0px 10px 0px ;
+
+}
+
+
+.ranking-box li
+ {
+  width: 100%;
+  background-color: #E0BE4A;
+  color: white;
+  line-height: 3.5em;
+  margin-bottom: 2px;
+  font-weight: normal;
+
+  font-size: 14px;
+
+
+
+}
+
+.ranking-box li::before {
+  display: inline-block;
+  content: "";
+  float: left;
+  width: 27px;
+  height: 26px;
+  margin: 12px 0px 0px 58px;
+  background: url("../img/ico_3column.png");
+  background-position: 0px 0px;
+  background-color: #E0BE4A;
+
+  color: black;
+
+}
+
+.ranking-box2 {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.side2-wrapper p {
+  width: 94%;
+  padding:10px;
+  margin: 0 auto;
+  background-color: white;
+  font-size: 11.0px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  border-bottom-width: 0.9px;
+}
+
+.span3 {
+  color: #E0BE4A;
+}
+
+.span4 {
+  color:  rgb(144, 144, 144);
+}
+
+
+#p3 {
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+/*footerここから！！！！！！！！*/
+
+footer {
+  padding: 20px 0px 30px 0px;
+
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color:  rgb(221, 221, 221);
+}
+
+footer::before {
+  content: "";
+  display: block;
+  background-image: url("../img/bg_giza.png");
+  width: 100%;
+  height: 8px;
+  background-position: 0px -30px;
+  position: relative;
+  top: -25px;
+
+
+
+}
